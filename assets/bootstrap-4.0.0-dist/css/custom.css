@@ -68,3 +68,17 @@ body{
   font-size: 55px;
   color:#0b0b0d;
 }
+
+
+.custom-card{
+    border:1px solid #929aab;
+    box-shadow: 20px 20px #929aab;
+  transition: all .4s ease;
+}
+.custom-card:hover {
+    /* box-shadow: 10px 10px #929aab; */
+    box-shadow: none;
+    border: none;
+    transform: scale(1.2);
+}
+
