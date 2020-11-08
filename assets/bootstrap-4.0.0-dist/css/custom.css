@@ -82,3 +82,23 @@ body{
     transform: scale(1.2);
 }
 
+.custombox {
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 15px;
+    
+    clear: both;
+    background-color: #202020;
+  }
+  .box-cont{
+      z-index: -1;
+      position: absolute;
+      top: 15%;
+      left: 7%;
+  }
+  .no-hover:hover{
+   text-decoration: none;
+   color: #d3d5fd;
+
+  }
